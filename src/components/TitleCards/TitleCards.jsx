@@ -4,6 +4,7 @@ import "./TitleCards.css";
 // import cards_data from "../../assets/cards/Cards_data";
 
 const TitleCards = ({title,category}) => {
+  console.log(category);
 
   const [apiData,setApiData] =useState([])
   const cardsRef = useRef();
