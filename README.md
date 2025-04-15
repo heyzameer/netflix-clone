@@ -1,4 +1,3 @@
-```markdown
 # 🎬 Netflix Clone
 
 A full-featured Netflix clone built with **React**, **React Router DOM**, **Firebase Authentication**, and **The Movie Database (TMDB) API**. Includes sleek UI, smooth navigation, and user-friendly notifications using **React Toastify**.
