@@ -15,13 +15,13 @@ const TitleCards = ({ title, category }) => {
   };
 
   const options = {
-    method: "GET",
+    method: 'GET',
     headers: {
-      accept: "application/json",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NzRkODgwYjUyZmJlMTI0MmY2MjA0NTI4MTMyMTg2YiIsIm5iZiI6MTc0NDY5NTU4OS4wODUsInN1YiI6IjY3ZmRmMTI1OWQxZjc3OGFiODk5NTQ0YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5j8KUUOQI57NVSeeQquwsPmEESSiltiDzPNLwBTX_qQ",
-    },
+      accept: 'application/json',
+      Authorization: `Bearer ${import.meta.env.VITE_TMDB_API_TOKEN}`
+    }
   };
+  
 
   useEffect(() => {
     fetch(
